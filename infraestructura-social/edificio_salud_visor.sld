@@ -6,82 +6,141 @@
       <se:Name>salud</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>Objeto 50.000.000 a 9.000.001</se:Name>
+          <se:Name>0 a 3</se:Name>
           <se:Description>
-            <se:Title>Objeto 50.000.000 a 9.000.001</se:Title>
+            <se:Title>0 a 3</se:Title>
           </se:Description>
-          <se:MinScaleDenominator>9000001</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>50000000</se:MaxScaleDenominator>
+          <se:MinScaleDenominator>69000000</se:MinScaleDenominator>          
+          <se:MaxScaleDenominator>600000000</se:MaxScaleDenominator>          
           <se:PointSymbolizer>
             <se:Graphic>
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="edificio_salud_visor.svg" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
+                <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#0dc3a8</se:SvgParameter>
+                  <se:SvgParameter name="fill">#D23137</se:SvgParameter>
+                  <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
+                <!--<se:Stroke>
+                  <se:SvgParameter name="stroke">#d19494</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.08</se:SvgParameter>
+                </se:Stroke>-->
               </se:Mark>
-              <se:Size>15</se:Size>
+              <se:Size>1</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>Objeto 9.000.000 a 1.000.001</se:Name>
+          <se:Name>4</se:Name>
           <se:Description>
-            <se:Title>Objeto 9.000.000 a 1.000.001</se:Title>
+            <se:Title>4</se:Title>
           </se:Description>
-          <se:MinScaleDenominator>1000001</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>9000000</se:MaxScaleDenominator>
+          <se:MinScaleDenominator>34000000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>69000000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="edificio_salud_visor.svg" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
               <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
+                <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#a58c67</se:SvgParameter>
+                  <se:SvgParameter name="fill">#D23137</se:SvgParameter>
+                  <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>
                 </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:Stroke>
+                  <se:SvgParameter name="stroke">#782525</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.02</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>25</se:Size>
+              <se:Size>2</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>Objeto 1.000.000 a 0</se:Name>
+          <se:Name>5</se:Name>
           <se:Description>
-            <se:Title>Objeto 1.000.000 a 0</se:Title>
+            <se:Title>5</se:Title>
           </se:Description>
-          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+          <se:MinScaleDenominator>15000000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>25000000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:Mark>
+                <se:WellKnownName>circle</se:WellKnownName>
+                <se:Fill>
+                  <se:SvgParameter name="fill">#D23137</se:SvgParameter>
+                  <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>
+                </se:Fill>
+                  <se:Stroke>
+                  <se:SvgParameter name="stroke">#782525</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.06</se:SvgParameter>
+                </se:Stroke>
+              </se:Mark>
+              <se:Size>4</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>6 a 8</se:Name>
+          <se:Description>
+            <se:Title>6 a 8</se:Title>
+          </se:Description>
+          <se:MinScaleDenominator>1500000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>9500000</se:MaxScaleDenominator>
           <se:PointSymbolizer>
             <se:Graphic>
               <se:ExternalGraphic>
                 <se:OnlineResource xlink:href="edificio_salud_visor.svg" xlink:type="simple"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
-              <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#5a8a1a</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>50</se:Size>
+              <se:Size>20</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>9 a 10</se:Name>
+          <se:Description>
+            <se:Title>9 a 10</se:Title>
+          </se:Description>
+          <se:MinScaleDenominator>400000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>1400000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:href="edificio_salud_visor.svg" xlink:type="simple"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <se:Size>27</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name>11 a 12</se:Name>
+          <se:Description>
+            <se:Title>11 a 12</se:Title>
+          </se:Description>
+          <se:MinScaleDenominator>100000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>350000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:href="edificio_salud_visor.svg" xlink:type="simple"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic>
+              <se:Size>22</se:Size>
+            </se:Graphic>
+          </se:PointSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:Name> 13 a +</se:Name>
+          <se:Description>
+            <se:Title> 9 a +</se:Title>
+          </se:Description>
+          <se:MaxScaleDenominator>70000</se:MaxScaleDenominator>
+          <se:PointSymbolizer>
+            <se:Graphic>
+              <se:ExternalGraphic>
+                <se:OnlineResource xlink:href="edificio_salud_visor.svg" xlink:type="simple"/>
+                <se:Format>image/svg+xml</se:Format>
+              </se:ExternalGraphic> 
+              <se:Size>32</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>

@@ -9,19 +9,19 @@
           <se:Name>areas_de_fabricacion_y_procesamiento</se:Name>
           <se:PolygonSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#ff4133</se:SvgParameter>
+              <se:SvgParameter name="stroke">#cc6421</se:SvgParameter>
               <se:SvgParameter name="stroke-width">1</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
           <se:PolygonSymbolizer>
             <se:Fill>
-              <se:SvgParameter name="fill">#ff4133</se:SvgParameter>
+              <se:SvgParameter name="fill">#cc6421</se:SvgParameter>
               <se:SvgParameter name="fill-opacity">0.28</se:SvgParameter>
             </se:Fill>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#33ff59</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+              <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
               <se:SvgParameter name="stroke-dasharray">4 2</se:SvgParameter>
             </se:Stroke>

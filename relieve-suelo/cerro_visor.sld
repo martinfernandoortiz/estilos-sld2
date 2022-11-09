@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:se="http://www.opengis.net/se" xmlns:ogc="http://www.opengis.net/ogc" version="1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <se:Name>mina_visor</se:Name>
+    <se:Name>cerros_visor</se:Name>
     <UserStyle>
-      <se:Name>mina_visor</se:Name>
+      <se:Name>cerros_visor</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>0 a 3</se:Name>
@@ -17,7 +17,7 @@
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#cc6421</se:SvgParameter>
+                  <se:SvgParameter name="fill">#9A7D22</se:SvgParameter>
                   <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
                 </se:Fill>
                 <!--<se:Stroke>
@@ -41,11 +41,11 @@
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#cc6421</se:SvgParameter>
+                  <se:SvgParameter name="fill">#9A7D22</se:SvgParameter>
                   <se:SvgParameter name="fill-opacity">0.8</se:SvgParameter>
                 </se:Fill>
                   <se:Stroke>
-                  <se:SvgParameter name="stroke">#bf7d63</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#9A7D22</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.02</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
@@ -63,20 +63,20 @@
           <se:PointSymbolizer>
             <se:Graphic>
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="mina_visor.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="cerro_visor.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <se:Mark>
                 <se:WellKnownName>square</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#cc6421</se:SvgParameter>
+                  <se:SvgParameter name="fill">#9A7D22</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#bf7d63</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#9A7D22</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>10</se:Size>
+              <se:Size>8</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
@@ -90,7 +90,7 @@
           <se:PointSymbolizer>
             <se:Graphic>
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="mina_visor.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="cerro_visor.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <se:Mark>
@@ -99,7 +99,7 @@
                   <se:SvgParameter name="fill">#cc6421</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#bf7d63</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
@@ -116,7 +116,7 @@
           <se:PointSymbolizer>
             <se:Graphic>
               <se:ExternalGraphic>
-                <se:OnlineResource xlink:type="simple" xlink:href="mina_visor.svg"/>
+                <se:OnlineResource xlink:type="simple" xlink:href="cerro_visor.svg"/>
                 <se:Format>image/svg+xml</se:Format>
               </se:ExternalGraphic>
               <se:Mark>
@@ -125,7 +125,7 @@
                   <se:SvgParameter name="fill">#cc6421</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#bf7d63</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
